@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Time Until Christmas Eve</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <h2 id="clock">00:00:00</h2>
+
+    <div id="weather">
+        <span></span>
+        <span></span>
+    </div>
+
+    <form id="login-form" class="hidden">
+        <input type="text" maxlength="15" placeholder="닉네임을 입력하세요." required />
+        <input type="submit" vlaue="Log In" />
+    </form>
+    <h1 class="hidden" id="greeting"></h1>
+
+    <form id="todo-form">
+        <input type="text" placeholder="할일을 기록하세요." required>
+    </form>
+
+    <ul id="todo-list">
+    </ul>
+
+
+
+
+    <script src="js/clock.js"></script>
+    <script src="js/todo.js"></script>
+    <script src="js/login.js"></script>
+    <script src="js/weather.js"></script>
+
+
+</body>
+
+</html>
